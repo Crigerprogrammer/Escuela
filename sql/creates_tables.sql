@@ -34,11 +34,11 @@ REFERENCES grado(id_grado)
 -- tabla estudiante
 CREATE TABLE estudiante
 (
-carne INT PRIMARY KEY IDENTITY(1,1) NOT NULL,
+carne INT PRIMARY KEY NOT NULL,
 nombres NVARCHAR(50),
 apellidos NVARCHAR(50),
 fecha_alta DATE,
-salario INT
+edad INT
 )
 -- Tabla nota
 CREATE TABLE nota
